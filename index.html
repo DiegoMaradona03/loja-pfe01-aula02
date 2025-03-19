@@ -1,22 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Loja do Litão</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="assets/bone1-removebg-preview.png" type="image/x-icon">:
+    <link rel="shortcut icon" href="./assets/bone.jpg" type="image/x-icon">
 </head>
+
 <body>
     <header>
         <h1>Loja do Litão</h1>
+        <button onclick="cadastro.classList.remove('oculto')">Novo produto</button>
     </header>
     <main>
-        <h2>Em Construção</h2>
     </main>
     <footer>
-        <h2>By Diego</h2>
+        <h2>By wellifabio</h2>
     </footer>
+    <div id="cadastro" class="modal oculto">
+        <div class="janela">
+            <div>
+                <h3>Cadastro</h3>
+                <button onclick="window.location.reload()">X</button>
+            </div>
+            <form>
+                <input type="text" name="produto" placeholder="Nome do produto" required>
+                <input type="text" name="descricao" placeholder="Descrição" required>
+                <input type="number" step="0.01" name="preco" placeholder="Preço" required>
+                <input type="text" name="imagem" placeholder="Cole o endereço da imagem" required>
+                <button type="submit">Cadastrar</button>
+            </form>
+        </div>
+    </div>
+    
+    <div id="exibirproduto" class="modal oculto">
+        <div class="janela">
+            <div>
+                <h3>Cadastro</h3>
+                <button onclick="window.location.reload()">X</button>
+            </div>
+            <form>
+                <h3>${p.descricao}</h3>
+                <img src="${p.imagem}" alt="${p.produto}">
+                <h3>Descrição: <br> ${p.descricao}</h3>
+                <p>Preco: ${p.preco}</p>
+                <button type="submit">Comprar</button>
+            </form>
+        </div>
+    </div>
 </body>
 <script src="script.js"></script>
 </html>

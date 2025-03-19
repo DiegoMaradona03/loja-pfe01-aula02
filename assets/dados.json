@@ -4,7 +4,76 @@
         "produto":"Boné",
         "descricao":"Boné verde",
         "preco":25.9,
-        "imagem":"bone1-removebg-preview.png"
+        "imagem":"./assets/bone1-removebg-preview.png"
     },
-    {}
+    {
+        "id":2,
+        "produto":"Boné",
+        "descricao":"Boné vermelho",
+        "preco":27.9,
+        "imagem":"./assets/bonehomemdeferro-removebg-preview.png"
+    },
+    {
+        "id":3,
+        "produto":"Blusa",
+        "descricao":"Blusa de frio termica",
+        "preco":44.9,
+        "imagem":"./assets/blusa1-removebg-preview.png"
+    },
+    {
+        "id":4,
+        "produto":"Blusa",
+        "descricao":"Blusa de frio cinza",
+        "preco":39.9,
+        "imagem":"./assets/blusa2-removebg-preview.png"
+    },
+    {
+        "id":5,
+        "produto":"Camisa",
+        "descricao":"Camisa amarela",
+        "preco":26.9,
+        "imagem":"./assets/camisa2-removebg-preview.png"
+    },
+    {
+        "id":6,
+        "produto":"Camisa",
+        "descricao":"Camisa de time",
+        "preco":0,
+        "imagem":"./assets/camisa3-removebg-preview.png"
+    },
+    {
+        "id":7,
+        "produto":"Bermuda",
+        "descricao":"Bermuda branca",
+        "preco":33.9,
+        "imagem":"./assets/bermuda1-removebg-preview.png"
+    },
+    {
+        "id":8,
+        "produto":"Camisa",
+        "descricao":"Camisa azul",
+        "preco":21.9,
+        "imagem":"./assets/camisaazul1-removebg-preview.png"
+    },
+    {
+        "id":9,
+        "produto":"Calça",
+        "descricao":"Calça jeans",
+        "preco":25.9,
+        "imagem":"./assets/calcajeans1-removebg-preview.png"
+    },
+    {
+        "id":10,
+        "produto":"Bermuda",
+        "descricao":"Bermuda azul escuro",
+        "preco":25.9,
+        "imagem":"./assets/bermuda2-removebg-preview.png"
+    },
+    {
+        "id":11,
+        "produto":"Conjunto",
+        "descricao":"Armadura de Nokia 3310",
+        "preco":4999.9,
+        "imagem":"./assets/armaduradenokia.png"
+    }
 ]
